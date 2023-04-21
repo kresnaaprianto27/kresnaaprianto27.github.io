@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>praktikum 4 | pemrograman web</title>
+    <style>
+      table {
+        padding: 10px;
+      }
+      .container {
+        margin: 10px auto;
+        border: 1px solid grey;
+        width: 40%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <form action="conditional.php" method="post" name="form1">
+        <table>
+          <tr>
+            <td>
+              <label for="txtName">Name</label>
+            </td>
+            <td><input type="text" id="txtNama" name="nama"/></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="">Jenis Kelamin</label>
+            </td>
+            <td>
+              <input type="radio" id="laki-laki" name="gender" value="L" />
+              <label for="laki-laki">Laki-laki</label>
+              <input type="radio" id="perempuan" name="gender" value="P" />
+              <label for="perempuan">Perempuan</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="submit" name="submit" value="submit" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

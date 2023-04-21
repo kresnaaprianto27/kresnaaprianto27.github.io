@@ -1,0 +1,58 @@
+
+
+body {
+	background-color:#3CB371 ;
+}
+.container {
+	width: 700px;
+	height: 500px;
+	background: white;
+	margin: 10px auto;
+	padding: 20px;
+
+}
+.header {
+	font-family: arial;
+}
+
+.data-1 {
+/*	border: 1px solid;*/
+
+}
+.nama {
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+}
+.bagian-1 {
+	padding: 20px;
+	display: inline-block;
+	background-color: #F0E68C;
+	border-radius: 20px;
+}
+.foto-profil {
+	background-image: url('images/rian.jpg');
+	height: 180px;
+	width: 150px;
+	position: absolute;
+	top: 70px;
+	right: 380px;
+	border: 3px solid #F0E68C;
+	background-size: cover;
+}
+label {
+	font-family: arial;
+	font-weight: bolder;
+}
+ .matkul {
+	position: absolute;
+	top: 270px;
+	right:340px;
+	background-color: #F0E68C ;
+	padding: 10px;
+	border-radius: 10px;
+}
+button {
+	margin-top: 30px;
+
+}

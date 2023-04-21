@@ -1,0 +1,44 @@
+
+body {
+	background-image: url("images/pattern-bunga.jpg");
+}
+.home {
+	background-image: url("images/bg-daun.jpg");
+	background-repeat: repeat-x;
+	border: 6px solid lightblue;
+	width: 950px;
+	height: 600px;
+	margin: 20px auto;
+}
+.home .container {
+	margin: auto;
+	height: 250px;
+	background-color: lightcoral;
+}
+.home .container h1 {
+	text-align: center;
+	color: white;
+	font-family: arial;
+	font-weight: bolder;
+	
+}
+.home .container ul li  {
+	display: block;
+
+}
+.home .container ul .item-2 h3  {
+	font-size: 30px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 300px;
+
+}
+.home .container ul li a {
+	text-decoration: none;
+}
+li p {
+
+	font-size: 20px;
+
+}
