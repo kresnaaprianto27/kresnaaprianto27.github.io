@@ -1,0 +1,147 @@
+.container .order {
+  padding: 1rem;
+  /* height: 350px; */
+  background-color: rgb(21, 21, 21);
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    'judul-pesanan judul-pesanan'
+    'garis-bawah garis-bawah'
+    'pesan-offline pesan-offline'
+    'pesan-online pesan-online';
+    border-bottom: 1rem solid #ffb800;
+    border-top: 1rem solid #ffb800;
+}
+
+.order .judul-order {
+  grid-area: judul-pesanan;
+  font-size: 3.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid grey; */
+  padding-left: 2rem;
+  color: #ffb800;
+}
+.order .garis {
+  grid-area: garis-bawah;
+  /* border: 1px solid grey; */
+  display: flex;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.order .garis .putih {
+  height: 0.4rem;
+  width: 7rem;
+  background-color: rgb(255, 255, 255);
+}
+.order .garis .orange {
+  height: 0.4rem;
+  width: 20rem;
+  background-color: #ffb800;
+}
+/* styling pesan offline */
+.order .pesan-offline {
+  grid-area: pesan-offline;
+  height: 40rem;
+  /* border: 1px solid grey;
+  background-color: #707070; */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    'txt-judul-off'
+    'txt-alamat';
+  grid-template-rows: 8rem 25rem;
+  letter-spacing: 1px;
+}
+
+.order .pesan-offline .txt-judul-off {
+  background-color: #039f67;
+  width: 70%;
+  border-bottom-right-radius: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order .pesan-offline .txt-alamat {
+  /* border: 1px solid grey; */
+  background-color: #977110;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  padding: 2rem;
+}
+/* akhir styling pesan offline */
+
+/* styling pesan online */
+.order .pesan-online {
+  grid-area: pesan-online;
+  height: 40rem;
+  /* border: 1px solid grey; */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    'txt-judul-on'
+    'image-kurir'
+    'nomer-wa';
+  grid-template-rows: 8rem 50vh ;
+}
+.order .pesan-online .txt-judul-on {
+  grid-area: txt-judul-on;
+  /* border: 1px solid grey; */
+  display: flex;
+  justify-content: end;
+}
+.order .pesan-online .txt-judul-on .kotak {
+  background-color: #039f67;
+  width: 70%;
+  border-bottom-left-radius: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order .pesan-online .image-kurir {
+  grid-area: image-kurir;
+  /* border: 1px solid grey; */
+  padding: 2px;
+  display: flex;
+  justify-content: end;
+}
+.order .pesan-online .image-kurir .kotak-1 {
+  /* border: 1px solid grey; */
+  width: 100%;
+  height:100%;
+  background-image: url('../images/pesan-antar.jpg');
+  background-size: cover;
+
+}
+.order .pesan-online .nomer-wa {
+  grid-area: nomer-wa;
+  /* border: 1px solid grey; */
+}
+
+
+/* akhir styling pesan online */
+
+/* responsive */
+@media screen and (min-width: 576px) {
+  .container .order {
+    grid-template-areas:
+      'judul-pesanan judul-pesanan'
+      'garis-bawah garis-bawah'
+      'pesan-offline pesan-online ';
+  }
+
+}

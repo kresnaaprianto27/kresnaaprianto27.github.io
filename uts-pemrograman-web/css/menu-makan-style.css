@@ -1,0 +1,500 @@
+.container .daftar-menu {
+  grid-area: daftar-menu;
+  background-color: #b68200;
+  height: 100%;
+}
+.daftar-menu .menu-makan {
+  /* border: 1px solid grey; */
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+/* styling menu makan */
+.daftar-menu .judul-makanan {
+  font-size: 3.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid grey; */
+  padding-left: 2rem;
+  color: #ffb800;
+}
+.daftar-menu .garis {
+  /* border: 1px solid grey; */
+  display: flex;
+  padding: 0.5rem;
+justify-content: center;
+  align-items: center;
+}
+.daftar-menu .garis .putih {
+  height: 0.4rem;
+  width: 7rem;
+  background-color: rgb(255, 255, 255);
+}
+.daftar-menu .garis .orange {
+  height: 0.4rem;
+  width: 20rem;
+  background-color: #ffb800;
+}
+.daftar-menu .makanan {
+  /* border: 1px solid grey; */
+  padding: 2rem;
+  padding: 10px;
+}
+
+/* styling card 1 */
+.daftar-menu .makanan {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.daftar-menu .makanan .card-satu {
+  /* border: 1px solid grey; */
+  padding: 5px;
+  width: 100%;
+  /* height: 35rem; */
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 0px 13px rgb(252, 255, 155);
+}
+.daftar-menu .makanan .card-satu .image img {
+  /* border: 1px solid grey; */
+  width: 100%;
+  background-size: cover;
+}
+.daftar-menu .makanan .card-satu .judul {
+  /* border: 1px solid grey; */
+  padding: 0.5rem;
+  /* background-color: rgb(205, 255, 188); */
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color: #8d0000;
+  font-weight: bold;
+}
+.daftar-menu .makanan .card-satu .harga {
+  /* border: 1px solid grey; */
+  /* background-color: rgb(188, 192, 255); */
+  font-size: 1.88rem;
+  padding: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+.daftar-menu .makanan .card-satu .deskripsi {
+  /* border: 1px solid grey; */
+  font-size: 1.7rem;
+  padding: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+
+  /* background-color: rgb(255, 188, 235); */
+}
+.daftar-menu .makanan .card-satu .button {
+  /* border: 1px solid grey; */
+  height: 3.5rem;
+  padding: 0.5rem;
+  /* background-color: rgb(250, 202, 177); */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  box-sizing: border-box;
+}
+.daftar-menu .makanan .card-satu .button a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(#039f67, #001c12);
+}
+/* akhir styling card 1 */
+
+/* styling card 2 */
+.daftar-menu .makanan {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.daftar-menu .makanan .card-dua {
+  /* border: 1px solid grey; */
+  padding: 5px;
+  width: 100%;
+  /* height: 35rem; */
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 0px 13px rgb(252, 255, 155);
+}
+.daftar-menu .makanan .card-dua .image img {
+  /* border: 1px solid grey; */
+  width: 100%;
+  background-size: cover;
+}
+.daftar-menu .makanan .card-dua .judul {
+  /* border: 1px solid grey; */
+  padding: 0.5rem;
+  /* background-color: rgb(205, 255, 188); */
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color: #8d0000;
+  font-weight: bold;
+}
+.daftar-menu .makanan .card-dua .harga {
+  /* border: 1px solid grey; */
+  /* background-color: rgb(188, 192, 255); */
+  font-size: 1.88rem;
+  padding: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+.daftar-menu .makanan .card-dua .deskripsi {
+  /* border: 1px solid grey; */
+  font-size: 1.7rem;
+  padding: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+
+  /* background-color: rgb(255, 188, 235); */
+}
+.daftar-menu .makanan .card-dua .button {
+  /* border: 1px solid grey; */
+  height: 3.5rem;
+  padding: 0.5rem;
+  /* background-color: rgb(250, 202, 177); */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  box-sizing: border-box;
+}
+.daftar-menu .makanan .card-dua .button a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(#039f67, #001c12);
+}
+/* akhir styling card 2 */
+
+/* styling card 3 */
+.daftar-menu .makanan {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.daftar-menu .makanan .card-tiga {
+  /* border: 1px solid grey; */
+  padding: 5px;
+  width: 100%;
+  /* height: 35rem; */
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 0px 13px rgb(252, 255, 155);
+}
+.daftar-menu .makanan .card-tiga .image img {
+  /* border: 1px solid grey; */
+  width: 100%;
+  background-size: cover;
+}
+.daftar-menu .makanan .card-tiga .judul {
+  /* border: 1px solid grey; */
+  padding: 0.5rem;
+  /* background-color: rgb(205, 255, 188); */
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color: #8d0000;
+  font-weight: bold;
+}
+.daftar-menu .makanan .card-tiga .harga {
+  /* border: 1px solid grey; */
+  /* background-color: rgb(188, 192, 255); */
+  font-size: 1.88rem;
+  padding: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+.daftar-menu .makanan .card-tiga .deskripsi {
+  /* border: 1px solid grey; */
+  font-size: 1.7rem;
+  padding: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+
+  /* background-color: rgb(255, 188, 235); */
+}
+.daftar-menu .makanan .card-tiga .button {
+  /* border: 1px solid grey; */
+  height: 3.5rem;
+  padding: 0.5rem;
+  /* background-color: rgb(250, 202, 177); */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  box-sizing: border-box;
+}
+.daftar-menu .makanan .card-tiga .button a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(#039f67, #001c12);
+}
+/* akhir styling card 3 */
+
+/* styling card 4 */
+.daftar-menu .makanan {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.daftar-menu .makanan .card-empat {
+  /* border: 1px solid grey; */
+  padding: 5px;
+  width: 100%;
+  /* height: 35rem; */
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 0px 13px rgb(252, 255, 155);
+}
+.daftar-menu .makanan .card-empat .image img {
+  /* border: 1px solid grey; */
+  width: 100%;
+  background-size: cover;
+}
+.daftar-menu .makanan .card-empat .judul {
+  /* border: 1px solid grey; */
+  padding: 0.5rem;
+  /* background-color: rgb(205, 255, 188); */
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color: #8d0000;
+  font-weight: bold;
+}
+.daftar-menu .makanan .card-empat .harga {
+  /* border: 1px solid grey; */
+  /* background-color: rgb(188, 192, 255); */
+  font-size: 1.88rem;
+  padding: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+.daftar-menu .makanan .card-empat .deskripsi {
+  /* border: 1px solid grey; */
+  font-size: 1.7rem;
+  padding: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+
+  /* background-color: rgb(255, 188, 235); */
+}
+.daftar-menu .makanan .card-empat .button {
+  /* border: 1px solid grey; */
+  height: 3.5rem;
+  padding: 0.5rem;
+  /* background-color: rgb(250, 202, 177); */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  box-sizing: border-box;
+}
+.daftar-menu .makanan .card-empat .button a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(#039f67, #001c12);
+}
+/* akhir styling card 4 */
+
+/* styling card 5 */
+.daftar-menu .makanan {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.daftar-menu .makanan .card-lima {
+  /* border: 1px solid grey; */
+  padding: 5px;
+  width: 100%;
+  /* height: 35rem; */
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 0px 13px rgb(252, 255, 155);
+}
+.daftar-menu .makanan .card-lima .image img {
+  /* border: 1px solid grey; */
+  width: 100%;
+  background-size: cover;
+}
+.daftar-menu .makanan .card-lima .judul {
+  /* border: 1px solid grey; */
+  padding: 0.5rem;
+  /* background-color: rgb(205, 255, 188); */
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color: #8d0000;
+  font-weight: bold;
+}
+.daftar-menu .makanan .card-lima .harga {
+  /* border: 1px solid grey; */
+  /* background-color: rgb(188, 192, 255); */
+  font-size: 1.88rem;
+  padding: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+.daftar-menu .makanan .card-lima .deskripsi {
+  /* border: 1px solid grey; */
+  font-size: 1.7rem;
+  padding: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+
+  /* background-color: rgb(255, 188, 235); */
+}
+.daftar-menu .makanan .card-lima .button {
+  /* border: 1px solid grey; */
+  height: 3.5rem;
+  padding: 0.5rem;
+  /* background-color: rgb(250, 202, 177); */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  box-sizing: border-box;
+}
+.daftar-menu .makanan .card-lima .button a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(#039f67, #001c12);
+}
+/* akhir styling card 5 */
+
+/* styling card 5 */
+.daftar-menu .makanan {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.daftar-menu .makanan .card-enam {
+  /* border: 1px solid grey; */
+  padding: 5px;
+  width: 100%;
+  /* height: 35rem; */
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 0px 13px rgb(252, 255, 155);
+}
+.daftar-menu .makanan .card-enam .image img {
+  /* border: 1px solid grey; */
+  width: 100%;
+  background-size: cover;
+}
+.daftar-menu .makanan .card-enam .judul {
+  /* border: 1px solid grey; */
+  padding: 0.5rem;
+  /* background-color: rgb(205, 255, 188); */
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color: #8d0000;
+  font-weight: bold;
+}
+.daftar-menu .makanan .card-enam .harga {
+  /* border: 1px solid grey; */
+  /* background-color: rgb(188, 192, 255); */
+  font-size: 1.88rem;
+  padding: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+.daftar-menu .makanan .card-enam .deskripsi {
+  /* border: 1px solid grey; */
+  font-size: 1.7rem;
+  padding: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+
+  /* background-color: rgb(255, 188, 235); */
+}
+.daftar-menu .makanan .card-enam .button {
+  /* border: 1px solid grey; */
+  height: 3.5rem;
+  padding: 0.5rem;
+  /* background-color: rgb(250, 202, 177); */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  box-sizing: border-box;
+}
+.daftar-menu .makanan .card-enam .button a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(#039f67, #001c12);
+}
+/* akhir styling card 6 */
+
+/* responsive */
+@media screen and (min-width: 576px) {
+  .daftar-menu .makanan .card-satu {
+    width: 30%;
+  }
+  .daftar-menu .makanan .card-dua {
+    width: 30%;
+  }
+  .daftar-menu .makanan .card-tiga {
+    width: 30%;
+  }
+  .daftar-menu .makanan .card-empat {
+    width: 30%;
+  }
+  .daftar-menu .makanan .card-lima {
+    width: 30%;
+  }
+  .daftar-menu .makanan .card-enam {
+    width: 30%;
+  }
+}
+
+
+
+
+/* akhir styling menu makan */
+
+
