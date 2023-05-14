@@ -1,0 +1,73 @@
+@use 'judulMinum-style' as jdlMinum;
+@use 'card-style' as cardMinum;
+.items.menu-minum {
+  grid-area: menu-minum;
+  background-color: #8f6701;
+  .judul-minuman {
+    @include jdlMinum.judul-minum-style;
+  }
+  .garis {
+    @include jdlMinum.garis-style;
+  }
+  .minuman {
+    @include cardMinum.minuman-style;
+    .card-satu {
+      @include cardMinum.card-minum-style;
+    }
+    .card-dua {
+      @include cardMinum.card-minum-style;
+    }
+    .card-tiga {
+      @include cardMinum.card-minum-style;
+    }
+    .card-empat {
+      @include cardMinum.card-minum-style;
+    }
+    .card-lima {
+      @include cardMinum.card-minum-style;
+    }
+    .card-enam {
+      @include cardMinum.card-minum-style;
+    }
+    .card-tujuh {
+      @include cardMinum.card-minum-style;
+    }
+    .card-delapan {
+      @include cardMinum.card-minum-style;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .items.menu-minum {
+    .minuman {
+      .card {
+        width: 30%;
+        .judul {
+          height: 15%;
+          font-size: 2.5rem;
+        }
+        .harga {
+          height: 15%;
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .items.menu-minum {
+    .minuman {
+      .card {
+        width: 45%;
+        .judul {
+          height: 15%;
+          font-size: 2.5rem;
+        }
+        .harga {
+          height: 15%;
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+}
