@@ -1,0 +1,59 @@
+@use 'card-style' as card;
+@use 'judulMenu-style' as jdl;
+
+.items.menu-makan {
+  grid-area: menu-makan;
+  background-color: #795700;
+  border-top: 10px solid rgb(68, 44, 0);
+  border-bottom: 10px solid rgb(68, 44, 0);
+  // judul makanan
+  .judul-makanan {
+    @include jdl.judul-menu-style;
+  }
+  .garis {
+    @include jdl.garis-style;
+  }
+  // akhir judul makanan
+  .makanan {
+    @include card.makanan-style;
+    .card-satu {
+      @include card.card-style;
+    }
+    .card-dua {
+      @include card.card-style;
+    }
+    .card-tiga {
+      @include card.card-style;
+    }
+    .card-empat {
+      @include card.card-style;
+    }
+    .card-lima {
+      @include card.card-style;
+    }
+    .card-enam {
+      @include card.card-style;
+    }
+  }
+}
+// tablet
+@media screen and (max-width: 768px) {
+  .items.menu-makan {
+    .makanan {
+      .card {
+        width: 45%;
+      }
+    }
+  }
+}
+// mobile
+@media screen and (max-width: 576px) {
+  .items.menu-makan {
+    .makanan {
+      .card {
+        width: 100%;
+      }
+    }
+  }
+}
+

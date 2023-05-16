@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-image: url("../container/bg.jpg");
+}
+
+.container {
+  border: 1px solid grey;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "navbar navbar" "landing-page landing-page" "menu-makan menu-makan" "menu-minum menu-minum" "order order" "about-me about-me" "komentar komentar" "footer footer";
+}
+.container .items {
+  border: 1px solid grey;
+  background-color: green;
+}/*# sourceMappingURL=container-style.css.map */
