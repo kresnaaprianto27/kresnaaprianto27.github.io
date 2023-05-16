@@ -1,0 +1,31 @@
+.items.footer {
+  grid-area: footer;
+  background-color: rgb(27, 27, 27);
+  height: 10rem;
+  grid-template-areas:
+    'cp cp cp'
+    'akun-sosmed akun-sosmed akun-sosmed';
+  grid-template-columns: 1fr;
+
+  .cp {
+    grid-area: cp;
+    // border: 1px solid white;
+    height: 40%;
+    background-color: rgb(42, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: .5rem solid rgb(92, 92, 92);
+    p {
+      font-family: 'poppins';
+      font-size: 2rem;
+      color: white;
+    }
+  }
+  .akun-sosmed {
+    grid-area: akun-sosmed;
+    // border: 1px solid white;
+    height: 60%;
+    background-color: rgb(26, 26, 26);
+  }
+}

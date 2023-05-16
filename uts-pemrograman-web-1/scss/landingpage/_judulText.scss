@@ -1,0 +1,35 @@
+@mixin style-text-judul {
+  .text-1 {
+    $white70: rgba(255, 255, 255, 0.8);
+    background-color: $white70;
+
+    width: 50%;
+    border-bottom-right-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    h2 {
+      font-family: 'Poppins';
+      font-size: 3.5rem;
+      font-weight: bolder;
+      margin-left: 1rem;
+    }
+  }
+
+  .text-2 {
+    $white70: rgba(0, 0, 0, 0.8);
+    background-color: $white70;
+
+    width: 66%;
+    border-bottom-right-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    h2 {
+      margin-left: 1rem;
+      font-family: 'Poppins';
+      font-size: 4rem;
+      font-weight: bolder;
+      color: orange;
+      font-style: italic;
+    }
+  }
+}

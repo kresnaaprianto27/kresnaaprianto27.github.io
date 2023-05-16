@@ -1,0 +1,50 @@
+.container {
+  background-color: rgb(79, 79, 79);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  .form-data-diri {
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+    width: 50vw;
+    padding: 1rem;
+    border-radius: 2rem;
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      h2 {
+        font-family: 'poppins';
+        font-size: 2rem;
+        font-weight: bolder;
+      }
+      label {
+        display: block;
+        margin-top: 10px;
+      }
+
+      input[type='text'],
+      input[type='email'],
+      select,
+      input[type='date'] {
+        width: 100%;
+        padding: 5px;
+        margin-top: 5px;
+      }
+
+      input[type='submit'] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      input[type='submit']:hover {
+        background-color: #45a049;
+      }
+    }
+  }
+}

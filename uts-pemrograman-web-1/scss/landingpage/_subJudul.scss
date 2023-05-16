@@ -1,0 +1,16 @@
+
+@mixin style-sub-judul {
+    p {
+        font-family: 'Poppins';
+        font-weight: 600;
+        color: white;
+        font-size: 3rem;
+        text-shadow: 2px 2px 3px black;
+        &:hover {
+            margin-left: 50px;
+            color: yellow;
+            transition: 0.6s;
+        }
+
+    }
+}
