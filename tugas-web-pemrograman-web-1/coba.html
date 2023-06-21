@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: grey;
+        }
+        .kotak {
+            background-color: white;
+            width: 200px;
+            height: 70px;
+        }
+        .kotak1 {
+            height: 2000px;
+            width: 20px;
+            background-color : green;
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak1"></div>
+    <div class="kotak">
+        <button class="hapus" type="submit">hapus</button>
+    </div>
+    <script>
+        const hapus = document.getElementsByClassName('hapus')[0];
+        hapus.addEventListener('click',function(e) {
+            hapus.parentElement.style.display = 'none';
+            e.preventDefault();
+        })
+    
+
+    </script>
+    <a href="./pages/user/loginUser/loginUser.php"></a>
+</body>
+</html>
