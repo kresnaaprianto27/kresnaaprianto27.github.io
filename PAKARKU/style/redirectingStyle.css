@@ -1,0 +1,55 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(#190e45, #350b37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kotakvalidasi {
+  background-color: rgb(255, 233, 248);
+  padding: 10px;
+  width: 650px;
+  /* height: 350px; */
+  border-radius: 30px;
+  border: 10px solid rgba(227, 155, 0, 0.986);
+  box-shadow: 0 0 100px 10px rgb(19, 19, 19);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.kotakvalidasi:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.kotakvalidasi .image {
+  width: 200px;
+}
+.kotakvalidasi .judulredirec {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+}
+.kotakvalidasi .btnkembali {
+     width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  border: 5px solid rgb(70, 37, 0);
+  color: white;
+  background-color: rgb(231, 169, 0);
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px black;
+  box-shadow: 2px 2px 3px black;
+}
+.kotakvalidasi .btnkembali:hover {
+
+ transform: scale(1.1);
+ transition: 1s;
+}

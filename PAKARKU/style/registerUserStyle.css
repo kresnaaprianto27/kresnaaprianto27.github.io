@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/* VALIDASI REGIS */
+.validasiform {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.kotakpesan {
+  width: 500px;
+  height: 300px;
+  background-color: rgb(253, 255, 224);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid rgb(255, 191, 0);
+
+}
+.kotakpesan:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+.kotakpesan .image {
+  width: 180px;
+}
+.kotakpesan .judulpesan {
+  margin: 10px;
+  font-size: 35px;
+}
+.kotakpesan .btnulangi {
+  width: 300px;
+  height: 45px;
+  font-size: 20px;
+  background-color: orange;
+  border: 5px solid orangered;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.kotakpesan .btnulangi:hover {
+  transition: 1s;
+  transform: scale(1.05); 
+}
+
+/* AKHIR VALIDASI REGIS */
+
+
+
+
+
+
+.container {
+  background: linear-gradient(#8562f6, #b83bbf);
+  width: 100%;
+  height: 100vh;
+  /* border: 1px solid yellow; */
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container .inputuser {
+  /* border: 1px solid yellow; */
+  display: flex;
+}
+.container .formlogin {
+  /* border: 1px solid yellow; */
+  margin: auto;
+  padding: 10px;
+  width: 900px;
+  /* height: 80vh; */
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 4px 4px 6px rgb(87, 87, 87);
+  border-radius: 10px;
+}
+.formlogin h2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 5px;
+  color: rgb(1, 0, 87);
+}
+/* KOTAK 1 */
+.formlogin .kotak1 {
+  /* border: 1px solid yellow; */
+  padding: 10px;
+  width: 50%;
+}
+.formlogin .inputuser .kotak1 label,
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  margin: 10px;
+}
+.formlogin .inputuser .kotak1 input[type='text'],
+input[type='email'],
+input[type='password'] {
+  width: 90%;
+  height: 30px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 3px 3px 4px rgb(125, 125, 125);
+}
+.formlogin .inputuser .kotak1 label {
+  font-size: 18px;
+  /* color: rgb(0, 0, 118); */
+}
+
+/* KOTAK 2 */
+.formlogin .kotak2 {
+  /* border: 1px solid yellow; */
+  padding: 10px;
+  width: 50%;
+}
+.formlogin .inputuser .kotak2 input[type='text'],
+input[type='date'],
+textarea,
+label {
+  margin: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+}
+.formlogin .inputuser .kotak2 input[type='text'],
+input[type='date'],
+textarea {
+  box-shadow: 3px 3px 4px rgb(125, 125, 125);
+}
+.formlogin .inputuser .kotak2 input[type='text'],
+input[type='date'] {
+  width: 90%;
+  height: 30px;
+}
+.formlogin .inputuser .kotak2 input[type='radio'] {
+  margin: 10px;
+}
+.formlogin .inputuser .kotak2 textarea {
+  width: 90%;
+  height: 100px;
+}
+.formlogin button {
+  width: 200px;
+  height: 35px;
+  background: linear-gradient(rgb(20, 134, 255), rgb(0, 0, 233));
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 4px black;
+  margin: 0px 20px;
+}
+.formlogin button:hover {
+  transform: scale(1.05);
+  transition: 0.8s;
+}
+.formlogin p {
+  margin: 5px 20px;
+  font-size: 18px;
+}

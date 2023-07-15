@@ -1,0 +1,2 @@
+SELECT `tbl_gangguan`.`namagangguan`, `tbl_gejala`.`namagejala` FROM tbl_pengetahuan JOIN tbl_gangguan ON `tbl_gangguan`.`idgangguan` = `tbl_pengetahuan`.`idgangguan`
+JOIN `tbl_gejala` ON `tbl_gejala`.`idgejala` = `tbl_pengetahuan`.`idgejala`;
