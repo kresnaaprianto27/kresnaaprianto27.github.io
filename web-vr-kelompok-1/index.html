@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>360&deg; Image</title>
+    <meta name="description" content="360&deg; Image - A-Frame">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    
+    <style>
+      #menu {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 10px;
+        border-radius: 5px;
+      }
+      #menu button {
+        display: block;
+        margin: 5px 0;
+        background-color:  rgb(85, 167, 223);
+        width: 200px;
+        height: 40px;
+        border: 3px solid blue;
+        color: white;
+        text-shadow: 2px 3px 3px gray;
+        cursor: pointer;
+        border-radius: 20px;
+      }
+      #menu button:hover {
+        background-color: rgb(33, 109, 197);
+        transition: 0.5s;
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="menu">
+      <button onclick="changeSky('1.jpg')">Monas</button>
+      <button onclick="changeSky('2.jpg')">Borobudur</button>
+      <button onclick="changeSky('3.jpg')">Pasuruan</button>
+    </div>
+
+    <a-scene>
+      <a-sky id="sky" src="./images/1.jpg" rotation="0 -130 0"></a-sky>
+      <a-text font="kelsonsans" width="6" position="-2.5 0.25 -1.5" rotation="0 15 0"></a-text>
+    </a-scene>
+
+    <script>
+      function changeSky(image) {
+        document.querySelector('#sky').setAttribute('src', './images/' + image);
+      }
+    </script>
+  </body>
+</html>
